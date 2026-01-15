@@ -1009,19 +1009,21 @@ do -- menu
 
             UI:AttachTheme(background2, { BackgroundColor3 = "background" })
 
-            local imagetoptab = Instance_manager.new("ImageLabel", {
+            local imagetoptab = Instance_manager.new("TextLabel", {
                 Name = "topimg";
                 Parent = background;
                 Position = udim2(0, 5, 0, 15);
                 Size = udim2(0,70,0,70);
                 BackgroundTransparency = 1;
-                --ImageColor3 = Color3.fromRGB(255, 255, 255);
+                Text = "C";
+                FontFace = UI.font;
+                TextSize = 24;
+                TextStrokeTransparency = 0;
                 BorderSizePixel = 0;
                 ZIndex = 9999;
-                Image = "http://www.roblox.com/asset/?id=93345810428641";
             });
 
-            UI:AttachTheme(imagetoptab, { ImageColor3 = "accent" })
+            UI:AttachTheme(imagetoptab, { TextColor3 = "accent" })
 
             local line_thingy2 = Instance_manager.new("Frame", {
                 Name = "line";
