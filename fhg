@@ -1013,11 +1013,11 @@ do -- menu
                 Name = "topimg";
                 Parent = background;
                 Position = udim2(0, 5, 0, 15);
-                Size = udim2(0,70,0,70);
+                Size = udim2(0,150,0,150);
                 BackgroundTransparency = 1;
                 Text = "C";
                 FontFace = UI.font;
-                TextSize = 800;
+                TextSize = 120;
                 TextStrokeTransparency = 0;
                 BorderSizePixel = 0;
                 ZIndex = 9999;
