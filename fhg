@@ -1009,36 +1009,12 @@ do -- menu
 
             UI:AttachTheme(background2, { BackgroundColor3 = "background" })
 
-            local imagetoptab = Instance_manager.new("TextLabel", {
-                Name = "topimg";
-                Parent = background;
-                Position = udim2(0, 5, 0, 15);
-                Size = udim2(0,150,0,150);
-                BackgroundTransparency = 1;
-                Text = "C";
-                FontFace = UI.font;
-                TextSize = 120;
-                TextStrokeTransparency = 0;
-                BorderSizePixel = 0;
-                ZIndex = 9999;
-            });
-
-            UI:AttachTheme(imagetoptab, { TextColor3 = "accent" })
-
-            local line_thingy2 = Instance_manager.new("Frame", {
-                Name = "line";
-                BorderSizePixel = 0;
-                Position = udim2(0, 82, 0, 0);
-                Size = udim2(0, 1, 1, 0);
-                Parent = background;
-            });
-            UI:AttachTheme(line_thingy2, { BackgroundColor3 = "outline" })
-
             local tabs_holder = Instance_manager.new("Frame", {
                 Name = "tabs_holder";
                 BackgroundTransparency = 1;
                 BorderColor3 = color3_rgb(0, 0, 0);
                 BorderSizePixel = 0;
+                Position = udim2(0, 0, 0, -165);
                 Size = udim2(0, 80, 0, 500);
                 Parent = background;
             });
