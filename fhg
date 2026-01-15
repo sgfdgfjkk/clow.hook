@@ -1015,7 +1015,7 @@ do -- menu
                 BorderColor3 = color3_rgb(0, 0, 0);
                 BorderSizePixel = 0;
                 Position = udim2(0, 0, 0, 50);
-                Size = udim2(0, 80, 0, 500);
+                Size = udim2(0, 80, 0, 400);
                 Parent = background;
             });
             UI:AttachTheme(tabs_holder, { BackgroundColor3 = "background" })
