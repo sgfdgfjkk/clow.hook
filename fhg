@@ -1,3 +1,4 @@
+
 local framework = loadstring(game:HttpGet("https://raw.githubusercontent.com/mainstreamed/clones/refs/heads/main/synapse/framework.lua", true))();
 --
 do -- checks
@@ -88,7 +89,7 @@ local UI = ({
     keybind_list = nil,
     themes = {
         Default = {
-            accent = color3_rgb(128, 128, 242),
+            accent = color3_rgb(220, 20, 60),
             risky = color3_rgb(200, 0, 0),
             background = color3_rgb(36, 36, 36),
             outline = color3_rgb(45, 45, 45),
@@ -120,7 +121,7 @@ local UI = ({
             inactive = color3_rgb(120, 120, 120)
         },
         ["Blue"] = {
-            accent = color3_rgb(0, 190, 255),
+            accent = color3_rgb(220, 20, 60),
             risky = color3_rgb(200, 0, 0),
             background = color3_rgb(36, 36, 36),
             outline = color3_rgb(45, 45, 45),
@@ -2809,7 +2810,7 @@ do -- menu
 
         local Icon = Instance_manager.new("ImageLabel", {
             Name = "Bind_Icon",
-            Image = "http://www.roblox.com/asset/?id=16081386298",
+            Image = "http://www.roblox.com/asset/?id=16081386299",
             BackgroundTransparency = 1,
             AnchorPoint = vec2(0, 0.5),
             Position = udim2(0, 1, 0.5, 0),
