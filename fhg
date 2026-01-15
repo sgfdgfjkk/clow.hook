@@ -1017,7 +1017,7 @@ do -- menu
                 BackgroundTransparency = 1;
                 Text = "C";
                 FontFace = UI.font;
-                TextSize = 48;
+                TextSize = 240;
                 TextStrokeTransparency = 0;
                 BorderSizePixel = 0;
                 ZIndex = 9999;
